@@ -151,8 +151,8 @@ p {
 
 .profile-container {
   min-width: 88px;
-  width: 88px;
-  height: 88px;
+  width: 140px;
+  height: 140px;
   margin: 12px;
   position: relative;
 }
@@ -163,8 +163,8 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 80px;
-  height: 80px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
 }
 
