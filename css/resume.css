@@ -275,7 +275,7 @@ p {
 .projects .card {
   border: 1px solid var(--gray);
 
-  height: 510px;
+  height: 570px;
   max-width: 390px;
   padding: 30px;
   margin: 20px auto;
@@ -305,19 +305,37 @@ p {
 }
 
 .projects .card .card-buttons .card-button--site,
-.projects .card .card-buttons .card-button--code {
+.projects .card .card-buttons .card-button--code,
+.projects .card .card-buttons .card-button--presentation {
   width: 150px;
   height: 60px;
+  text-align: center;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5px;
 
   opacity: 1;
   color: var(--white);
 
   transition: 250ms ease all;
 }
+
+/* .projects .card .card-buttons .card-button--presentation {
+  width: 150px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+
+  opacity: 1;
+  color: var(--white);
+
+  transition: 250ms ease all;
+} */
 
 .projects .card .card-buttons .card-button--site {
   background-color: var(--gray);
@@ -326,9 +344,13 @@ p {
 .projects .card .card-buttons .card-button--code {
   border: 1px solid var(--gray);
 }
+.projects .card .card-buttons .card-button--presentation {
+  border: 1px solid var(--gray);
+}
 
 .projects .card .card-buttons .card-button--site:hover,
-.projects .card .card-buttons .card-button--code:hover {
+.projects .card .card-buttons .card-button--code:hover,
+.projects .card .card-buttons .card-button--presentation:hover {
   background-color: var(--white);
   color: var(--black);
 }
