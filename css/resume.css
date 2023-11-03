@@ -322,21 +322,6 @@ p {
   transition: 250ms ease all;
 }
 
-/* .projects .card .card-buttons .card-button--presentation {
-  width: 150px;
-  height: 60px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 8px;
-
-  opacity: 1;
-  color: var(--white);
-
-  transition: 250ms ease all;
-} */
-
 .projects .card .card-buttons .card-button--site {
   background-color: var(--gray);
 }
