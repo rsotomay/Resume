@@ -350,7 +350,7 @@ p {
 
 .projects .card .card-buttons .card-button--site:hover,
 .projects .card .card-buttons .card-button--code:hover,
-.projects .card .card-buttons .card-button--presentation:hover {
+.projects .card .card-buttons .card-button--demo:hover {
   background-color: var(--white);
   color: var(--black);
 }
